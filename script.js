@@ -9,7 +9,7 @@ Iya.addEventListener("click", function () {
     if (Iya.value == 1) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Assalamualaikum, Hai Saya Erlan";
+        Text.innerHTML = "Assalamualaikum, Hai Saya Rasya";
         Text.classList.add('text-animate');
     }else if (Iya.value == 2) {
         Text.classList.remove('text-animate');
@@ -47,7 +47,7 @@ Iya.addEventListener("click", function () {
         Image.setAttribute("src", "https://c.tenor.com/57JSPYRo0k8AAAAj/lebaran-selamat-lebaran.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Selamat Hari Raya Idul Fitri 1444 Hijriah";
+        Text.innerHTML = "Selamat Hari Raya Idul Fitri 1446 Hijriah";
         Text.classList.add('text-animate');
         Iya.remove();
     }
